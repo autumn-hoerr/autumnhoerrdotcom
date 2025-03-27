@@ -1,0 +1,32 @@
+.page
+  display: grid
+  grid-template-rows: 1fr 20px
+  align-items: center
+  justify-items: center
+  min-height: 100svh
+  padding: 80px
+  gap: 64px
+
+.linkslist
+  font-family: var(--font-inter)
+  display: flex
+  gap: 1rem
+  list-style: none
+
+.nameheading
+  font-family: var(--font-fleur)
+  font-weight: 400
+  color: transparent
+  background-clip: text
+  background-image: linear-gradient(to right, #38c6df, #da764f, #db2777)
+  font-size: 3rem
+
+@media (min-width: 560px)
+  .nameheading
+    font-size: 4rem
+    padding: 0 6px
+
+@media (min-width: 960px)
+  .nameheading
+    font-size: 8rem
+    padding: 0 16px
